@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+
+:root{
+    --primary:var(#2763B2);
+    --blue:var(#BBDCFE);
+}
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* Header */
+header .header-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2763B2;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+header .header-1 .logo img{
+    width: 100px;
+}
+
+header .header-1 form{
+    display: flex;
+}
+
+header .header-1 form #search{
+    height: 40px;
+    width: 600px;
+    background: white;
+    outline: none;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    color: #333;
+    padding: 0 10px;
+    font-size: 17px;
+}
+
+header .header-1 form label{
+    height: 40px;
+    width: 60px;
+    background: #EDF2F7;
+    color: #737C8C;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 0 10px 10px 0;
+}
+
+header .header-1 form label:hover{
+    color: blue;
+}
+
+header .header-2{
+    background-color: #2763B2;
+}
+
+header .header-2 .dropdown{
+    color: white;
+    font-family: sans-serif;
+}
+
+
+header .header-2 .nav-item .nav-link{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+header .header-2 .dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+/*Owl Coursel Jumboton*/
+.page1 .jumbotron .owl-carousel .owl-nav .owl-next{
+    position: absolute;
+    top: calc(50%-25px);
+    top: 40%;
+    right: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+}
+
+.page1 .jumbotron .owl-carousel .owl-nav .owl-prev{
+    position: absolute;
+    top: calc(50%-25px);
+    top: 40%;
+    left: 0;
+    opacity: 1;
+    font-size: 30px !important; 
+    z-index: 1;
+}
+
+.crl-1 .owl-carousel2 img{
+    width: 40px;
+    border: white;
+}
+
+footer .ul .li a{
+    color: white;
+}
+
+.belajar{
+    background-color: #0073d8;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    padding-top: 100px;
+}
+
+/*Product*/
+
+.product{
+    margin-top: -100px;
+}
+
+.product-img{
+    position: relative;
+    overflow: hidden;
+}
+
+.btns a{
+    border: none;
+    text-decoration: none;
+    background-color: #0073d8;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.btns a:hover{
+    color: #ffc72a;
+}
+
+.product-img:hover .btns{
+    bottom: 0;
+}
+
+.product-type{
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.product-name{
+    transition: all 0.3s ease-in-out;
+}
+
+.product-name:hover{
+    color: #ffc72a;
+}
+
+.product-price{
+    color: #ffc72a;
+}
+
+.rating{
+    font-size: 13px;
+}
+
+.blog{
+    margin-top: -70px;
+    margin-bottom: 50px;
+}
+.blog .text{
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+}
+.blog .carousel-indicators {
+	display: none;
+}
+
+.blog .carousel-item a{
+    border-radius: 20px;
+    box-shadow: 5px rgba(0, 0, 0, 0.2);
+}
+
+.blog .carousel-item .text{
+    background-color: #EDF2F7;
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+/*Content end*/
+.beda .text{
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+}
+.beda .carousel-indicators {
+    display: none;
+}
+
+.beda .carousel-item a{
+    border-radius: 20px;
+    box-shadow: 5px rgba(0, 0, 0, 0.2);
+}
+
+.beda .carousel-item .text{
+    background-color: #EDF2F7;
+}
+
+/* The colour of the indicators */
+.beda .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.beda .carousel-indicators .active {
+background: #707070;
+}
+
+footer {
+    background: #4b6cb7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #000428, #0073d8); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #000428, #0073d8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white !important;
+}
+  
+.futer-bg1 li a {
+    text-decoration: none;
+    color: white !important;
+}
+  
+.futer-bg1 li a:hover {
+    text-decoration: underline;
+}
+  
+
+
+/* Media */
+@media (max-width:991px){
+    header .header-1 form #search{
+        width: 100%;
+    }
+    .funeture h6{
+        font-size: 10px;
+    }
+    .funeture .item img{
+        width: 25px;
+    }
+}
+
+@media (max-width:500px){
+    header .header-1 {
+        flex-flow: column;
+    }
+    header .header-1 .logo{
+        text-align: center;
+    }
+    header .header-1 form{
+        padding-top: 10px;
+    }
+}
+
+
+/* VChange */
+.jarak{
+    margin-left: 7.84px;
+    margin-right: 7.84px;
+}

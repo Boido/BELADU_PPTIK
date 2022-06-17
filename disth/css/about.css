@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+
+*{
+    padding: 0; margin: 0;
+    text-decoration: none; border: none;
+    font-family: 'Roboto', sans-serif;;
+}
+
+body{
+    scroll-behavior: smooth;
+    transition: all 0.2s linear;
+    overflow-x: hidden;
+}
+
+/* Header */
+header .header-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2763B2;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+header .header-1 .logo img{
+    width: 100px;
+}
+
+header .header-1 form{
+    display: flex;
+}
+
+header .header-1 form #search{
+    height: 40px;
+    width: 600px;
+    background: white;
+    outline: none;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    color: #333;
+    padding: 0 10px;
+    font-size: 17px;
+}
+
+header .header-1 form label{
+    height: 40px;
+    width: 60px;
+    background: #EDF2F7;
+    color: #737C8C;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 0 10px 10px 0;
+}
+
+header .header-1 form label:hover{
+    color: blue;
+}
+
+header .header-2{
+    background-color: #2763B2;
+}
+
+header .header-2 .dropdown{
+    color: white;
+    font-family: sans-serif;
+}
+
+
+header .header-2 .nav-item .nav-link{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+header .header-2 .dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+/* end */
+
+/* content */
+
+
+
+footer {
+    background: #4b6cb7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #000428, #0073d8); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #000428, #0073d8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white !important;
+}
+  
+.futer-bg1 li a {
+    text-decoration: none;
+    color: white !important;
+}
+  
+.futer-bg1 li a:hover {
+    text-decoration: underline;
+}
+  
+
+
+
+
+/* Media */
+@media (max-width:991px){
+    header .header-1 form #search{width: 100%}
+}
+
+
+@media (max-width:500px){
+    header .header-1 {
+        flex-flow: column;
+    }
+    header .header-1 .logo{
+        text-align: center;
+    }
+    header .header-1 form{
+        padding-top: 10px;
+    }
+}

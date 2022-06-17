@@ -1,0 +1,477 @@
+  
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+  *{
+    scroll-behavior: smooth;
+  }
+  body{
+      font-family: 'Poppins',sans-serif !important;
+      margin: auto;
+  }
+  .btn{
+      border-radius: 0px !important;
+  }
+  .modal-backdrop{
+    z-index: 1;
+  }
+  .rogueBox{
+    border: 1px solid rgb(224, 224, 224);
+    background-color:white;
+    box-shadow: 0px 0px 10px black;
+  }
+  
+  /*Sidebar CSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
+#wrapper {
+    overflow-x: hidden;
+  }
+  
+  #sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: 0;
+    transition: margin 0.25s ease-out;
+  }
+  
+  #sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+  }
+  
+  
+  #sidebar-wrapper .list-group {
+    width: 20rem;
+  }
+  
+  #page-content-wrapper {
+    margin-top: -30px !important;
+    min-width: 100vw;
+  }
+  
+  body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+    margin-left: -20rem;
+  }
+  
+  @media (min-width: 450px) {
+    #sidebar-wrapper {
+      margin-left: -20rem;
+    }
+  
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+    }
+  
+    body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+      margin-left: 0;
+    }
+  }
+  /* end Sidebar CSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
+  /* Da real CSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
+  .toggler:hover{
+    background: rgb(71, 71, 71) !important;
+    border-radius: 1px solid white !important;
+    color: white !important;
+    
+  }
+  .toggler{
+      transition:all 0.4s ease-out;
+  }
+  .box{
+      border: 1px solid black;
+  }
+  .akorn{
+      color: black;
+  }
+  
+  .accordion .card{
+      border:none;
+      border-radius: 0px;
+  }
+  .accordion .ortuAkorn{
+      border-bottom: 1px solid black;
+      border-top: 1px solid black;
+      border-right: 1px solid black;
+      border-radius:0 20px 20px 0;
+  }
+  .ortuAkorn .card-header{
+      background:none;
+      border-bottom: 1px solid black;
+  }
+  .akorn:focus .chevron{
+      transform: rotate(180deg);
+      position: relative;
+  }
+  .kursus .kol2 , .kol1{
+      border-bottom: 1px solid black;
+  }
+  .kursus{
+      border: none !important;
+  }
+  .card-body{
+    color:black !important;
+  }
+  .anim{
+    width:196px !important;
+    margin-top:10px !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0px 2px 4px black !important
+  }
+  /* halaman dua */
+  .tombollikes:focus .likes{
+    color: grey;
+  }
+  .tombollikes{
+    color:black !important;
+  }
+  .aligntext p{
+    margin-left:20px;
+    justify-content: end;
+  }
+  .aligntext{
+    margin-left: 350px;
+    justify-content: end;
+  }
+  .karturd a:hover{
+    text-decoration: none;
+  }
+  .karturd{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+  }
+  .rectangleRating{
+    background: grey;
+    width: 200px;
+    height: 10px;
+    margin-bottom: 10px;
+    /* z-index: 1; */
+    position: relative;
+  }
+  .rectangleRating::after{
+    /* z-index: 2; */
+    position:absolute;
+    content: "";
+    top:0;
+    left: 0;
+    height:100%;
+    width: 1%;
+    background-color: black;
+  }
+  .rectangleRating2{
+    background: grey;
+    width: 200px;
+    height: 10px;
+    margin-bottom: 10px;
+    /* z-index: 1; */
+    position: relative;
+  }
+  .rectangleRating2::after{
+    /* z-index: 2; */
+    position:absolute;
+    content: "";
+    top:0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    background-color: black;
+  }
+  .rectangleRating3{
+    background: grey;
+    width: 200px;
+    height: 10px;
+    margin-bottom: 10px;
+    /* z-index: 1; */
+    position: relative;
+  }
+  .rectangleRating3::after{
+    /* z-index: 2; */
+    position:absolute;
+    content: "";
+    top:0;
+    left: 0;
+    height:100%;
+    width: 1%;
+    background-color: black;
+  }
+  .rectangleRating4{
+    background: grey;
+    width: 200px;
+    height: 10px;
+    margin-bottom: 10px;
+    /* z-index: 1; */
+    position: relative;
+  }
+  .rectangleRating4::after{
+    /* z-index: 2; */
+    position:absolute;
+    content: "";
+    top:0;
+    left: 0;
+    height:100%;
+    width: 1%;
+    background-color: black;
+  }
+  .rectangleRating5{
+    background: grey;
+    width: 200px;
+    height: 10px;
+    margin-bottom: 10px;
+    /* z-index: 1; */
+    position: relative;
+  }
+  .rectangleRating5::after{
+    /* z-index: 2; */
+    position:absolute;
+    content: "";
+    top:0;
+    left: 0;
+    height:100%;
+    width: 1%;
+    background-color: black;
+  }
+  
+  .ratingKards .card{
+    border: none !important;
+  }
+  .commentSec .card{
+    border: none;
+  }
+  .popCorn .kartuCorn{
+    border: none;
+  }
+  .rattting{
+    margin-left: 200px;
+    display:flex;
+
+  }
+  .ter ul{
+    list-style: url(asset/img/checkmark.png) ;
+  }
+  .guitar{
+    border: 1px solid black !important;
+    border-top: none !important;
+  }
+  .guitar .card-header{
+    border-bottom: 1px solid black;
+  }
+  /* halaman tiga */
+  .youtube img{
+    height: 50% !important;
+  }
+  .boxNama{
+    padding: 10px;
+    background: #FFB800;
+    color: white;
+    z-index:1;
+  }
+  .checkito{
+    border-top:none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-bottom: 2px solid #53535394 !important;
+  }
+  .checkito a{
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    color: white;
+    background-color:#2763B2;
+    border-radius:10px !important;
+    margin-bottom :10px !important;
+    border:none !important;
+  }
+  .youtube .borderimg{
+    border:2px solid transparent !important;
+    border-radius:10px;
+  }
+  .checkito a:hover{
+    color: rgb(46, 46, 46);
+  }
+  .butol{
+    border-radius: 50px !important;
+  }
+  .butols{
+    border-radius: 5px !important;
+  }
+  .linksss{
+    color: black;
+    text-decoration: none !important;
+  }
+  .tulisan{
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+  }
+  
+  @media (max-width: 768px) {
+    /*  Halaman ke dua */   
+    .rogueBox p{
+      font-size: 15px;
+    }
+    .rogueBox h3{
+      font-size: 20px;
+    }
+    .rogueBox h1{
+      font-size: 25px;
+    }
+    .ratingKards .card{
+      border: none !important;
+    }
+    .commentSec .card{
+      border: none;
+    }
+
+
+  }
+  @media (max-width: 992px) {
+    /* Halaman ke dua */
+    .rogueBox p{
+      font-size: 16px;
+    }
+    .rogueBox h3{
+      font-size: 15px;
+    }
+    .rogueBox h1{
+      font-size: 25px;
+    }
+  }
+  @media (min-width: 992px) {
+    /* Halaman ke */
+    .rogueBox{
+      margin-top: -275px;
+    }
+    
+  }
+  
+  .grus{
+    
+    transition: all 0.4s ease-out;
+  }
+  .hoverimg:hover .grus{
+    transform: scale(1.1);
+  }
+  .hoverimg{
+    overflow:hidden !important;
+    border-radius:20px !important;
+    width:320px;
+  }
+  .kursus:hover .grus{
+    transform: scale(1.1) !important;
+  }
+  /* navbar */
+  /* Header */
+header .header-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2763B2;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+header .header-1 .logo img{
+  width: 100px;
+}
+
+header .header-1 form{
+  display: flex;
+}
+
+header .header-1 form #search{
+  height: 40px;
+  width: 600px;
+  background: white;
+  outline: none;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  color: #333;
+  padding: 0 10px;
+  font-size: 17px;
+}
+
+header .header-1 form label{
+  height: 40px;
+  width: 60px;
+  background: #EDF2F7;
+  color: #737C8C;
+  cursor: pointer;
+  line-height: 40px;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 0 10px 10px 0;
+}
+
+header .header-1 form label:hover{
+  color: blue;
+}
+
+header .header-2{
+  background-color: #2763B2;
+}
+
+header .header-2 .dropdown{
+  color: white;
+  font-family: sans-serif;
+}
+
+
+header .header-2 .nav-item .nav-link{
+  color: white;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+header .header-2 .dropdown:hover .dropdown-menu{
+  display: block;
+}
+.bgwarning{
+  background-color:#2763b2;
+  /* background-color: #FFC821; */
+  color: white;
+  border: none;
+}
+.bgprimary{
+  /* background-color:#2763b2; */
+  background-color: #FFB800;
+  color: white;
+  border: none !important;
+}
+.bgprimaryb{
+  background-color: #FFB800;
+  color: white;
+  border: none !important;
+  border-radius:10px !important;
+}
+.bgwarningb{
+  background-color: #2763b2;
+  color: white;
+  border: none !important;
+  border-radius:10px !important;
+}
+.bulat{
+  border-radius: 8px !important;
+}
+.bg{
+  border:1px solid black;
+}
+.bg2{
+  background-color: #2763B2 !important;
+}
+.bggreenb{
+  border-radius:10px !important;
+  border:none;
+  background-color:#28A745;
+  color:white;
+}
+footer {
+  font-family: "Poppins", sans-serif;
+  background: #4b6cb7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #000428, #0073d8); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #000428, #0073d8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white !important;
+}
+
+.futer-bg1 li a {
+  text-decoration: none;
+  color: white !important;
+}
+
+.futer-bg1 li a:hover {
+  text-decoration: underline;
+}
